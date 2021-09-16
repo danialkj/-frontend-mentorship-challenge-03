@@ -1,1 +1,25 @@
 @import "reset.css";
+
+#navbar {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+#nabvar-logo{
+color: #16A085;
+font-weight: bold;
+}
+
+#account-btn{
+background-color: #fff;
+border-radius:10px;
+padding: 10px;
+color:#16A085 ;
+border: 0px;
+}
+
+#account-btn-icon{
+    color: #B75D5D;
+}
