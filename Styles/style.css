@@ -1,5 +1,16 @@
 @import "reset.css";
 
+body{
+    background-image: url("/images/travel-with-us-01-background-img.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    height: 100vh;
+    }
+
 #navbar {
     display: flex;
     justify-content:space-between;
@@ -8,8 +19,10 @@
 }
 
 #nabvar-logo{
+font-size: 24px;
 color: #16A085;
 font-weight: bold;
+text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 #account-btn{
