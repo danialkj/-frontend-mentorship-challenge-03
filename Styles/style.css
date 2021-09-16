@@ -36,3 +36,40 @@ border: 0px;
 #account-btn-icon{
     color: #B75D5D;
 }
+
+#Selection-panel{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#form-selection-panel{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 0px;
+    border-radius: 15px;
+
+}
+.form-input-panel{
+margin: 5px;
+text-align: center;
+}
+
+#form-selection-panel-btn{
+background-color:  #16A085;
+color: #fff;
+border-radius:10px;
+padding: 10px;
+}
+
+
+
