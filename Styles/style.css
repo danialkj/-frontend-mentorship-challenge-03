@@ -40,7 +40,7 @@ border: 0px;
 
 #Selection-panel{
     
-    height: 85vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,9 +52,7 @@ border: 0px;
 #form-selection-panel{
    
     display: flex;
-    
     justify-content: space-evenly;
-    background-color: #fff;
     padding: 1.5rem;
     border: 0px;
     border-radius: 15px;
@@ -83,6 +81,7 @@ input{
     text-align: center;
     margin-top: 5px;
     color: #16A085; ;
+    border-radius: 7px;
 }
 
 .fas{
