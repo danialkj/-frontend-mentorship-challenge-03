@@ -19,18 +19,31 @@
 
           <div class="form-input-panel">
             <label for="region"> Where You Go ? </label><br>
-            <input type="text" name="region" placeholder="Maldives" >
+            <input list="regions" name="region" placeholder="select a region">
+            <datalist id="regions">
+              <option value="Kish">
+              <option value="Shiraz">
+              <option value="Tabriz">
+              <option value="Tehran">
+              <option value="Kashan">
+            </datalist>
           </div>
 
+          <div class="vl"></div>
+
           <div class="form-input-panel">
-            <label for="check-in-date"> CHeck in ?  </label><br>
+            <label for="check-in-date"> Check in <i class="fas fa-plane-arrival"></i>  </label><br>
             <input type="date" name="check-in-date" placeholder="date" >
           </div>
 
+          <div class="vl"></div>
+
           <div class="form-input-panel">
-            <label for="check-out-date"> CHeck in ?  </label><br>
+            <label for="check-out-date"> Check Out <i class="fas fa-plane-departure"></i>  </label><br>
             <input type="date" name="check-out-date" placeholder="date" >
           </div>
+
+          <div class="vl"></div>
 
           <div class="form-input-panel">
            <button id="form-selection-panel-btn"> Search </button>

@@ -69,7 +69,23 @@ background-color:  #16A085;
 color: #fff;
 border-radius:10px;
 padding: 10px;
+border: 0px;
 }
 
+.vl {
+    border-left: 2px solid rgb(185, 185, 185);
+    height: 2.5rem;
+    margin: 5px;
+  }
 
+input{
+    border: 0px;
+    text-align: center;
+    margin-top: 5px;
+    color: #16A085; ;
+}
+
+.fas{
+    color:  #B75D5D;
+}
 
