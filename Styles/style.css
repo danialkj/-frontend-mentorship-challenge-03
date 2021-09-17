@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "responsive.css";
 
 body{
     background-image: url("/images/travel-with-us-01-background-img.jpg");
@@ -38,8 +39,8 @@ border: 0px;
 }
 
 #Selection-panel{
-    height: 70vh;
     
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +52,7 @@ border: 0px;
 #form-selection-panel{
    
     display: flex;
-    flex-direction: row;
+    
     justify-content: space-evenly;
     background-color: #fff;
     padding: 1.5rem;
@@ -74,7 +75,6 @@ border: 0px;
 
 .vl {
     border-left: 2px solid rgb(185, 185, 185);
-    height: 2.5rem;
     margin: 5px;
   }
 
